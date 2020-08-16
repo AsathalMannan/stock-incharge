@@ -14,7 +14,7 @@ const App = () => {
       <div>
         <GlobalStyles />
         <Switch>
-          <Route path="/" component={Home} />
+          <Route path="/stock-incharge" component={Home} />
         </Switch>
       </div>
     </ThemeProvider>
